@@ -1,0 +1,170 @@
+h2{
+  margin: 0 auto;
+}
+
+.header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f8f539;
+}
+
+.header span{
+  text-transform: uppercase;
+}
+
+header, footer {
+  background-color: #964083;
+  color: #ffffff;
+}
+
+.personal-account {
+  color:#ffffff;
+  font-size: large;
+}
+
+.info{
+  background-image: url('../images/1650711865_15-sportishka-com-p-ekskursii-po-moskve-krasivo-foto-15.jpg');
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.info h2{
+  font-size: calc(4vw + 4vh + 2vmin)!important;
+}
+
+.about h2{
+  margin-bottom: 50px;
+}
+
+.about{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.features__text{
+	font-size: 14px;
+	max-width: 300px;
+	margin: 0 auto;
+
+}
+
+.features__title{
+	font-size: 14px;
+	color: #2d3033;
+	margin-top: 31px;
+	margin-bottom: 17px;
+}
+  
+.features .row div:nth-child(1), .about .row div:nth-child(2), .about .row div:nth-child(3){
+	margin-bottom: 69px;
+}
+
+::selection {
+  background: #C572A5;
+  color: #EEE;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #C572A5;
+  ;
+  color: #EEE;
+  text-shadow: none;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: #EEE;
+  --bs-tooltip-color: #964083;
+}
+
+.tooltip-inner {
+  max-width: 20vw;
+  /* If max-width does not work, try using width instead */
+  width: 20vw;
+}
+
+#application-delete-modal .modal-header, #application-delete-modal .modal-footer {
+  border: none;
+}
+
+html {
+  font-family: "Times New Roman";
+}
+
+
+.page-link {
+  color:   #C572A5;
+  ;
+}
+.page-link:hover {
+  color: #ffffff; 
+  background-color: #C572A5;
+}
+
+.btn-guides.btn-outline-primary {
+  color: #709A86;
+  background-color: rgb(255, 255, 255); 
+  border-color: #709A86; 
+}
+
+.btn-guides.btn-outline-primary:hover {
+  color: rgb(255, 255, 255);
+  background-color: #709A86; 
+  border-color: #709A86; 
+}
+
+.tit-color {
+  color: #E38C24;
+}
+
+section div {
+  margin: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .main-container .main-info {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main-container .main-info {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-container .main-info .main-info-img, .main-container .main-info .main-info-text {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main-container .main-info .main-info-img, .main-container .main-info .main-info-text {
+    width: 45%;
+    min-width: 250px;
+  }
+}
+.main-container .main-info .main-info-text {
+  font: 1.5rem "Times New Roman";
+}
+
+.exp-input {
+  width: 15%;
+  min-width: 70px;
+}
+
+@media (min-width: 576px) {
+  .input-group-find {
+    width: 25%;
+    min-width: 200px;
+  }
+}
+@media (max-width: 576px) {
+  .input-group-find {
+    width: 100%;
+  }
+}

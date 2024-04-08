@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.main-menu li {
+    display: inline;
+    margin-right: 10px;
+    flex: 1 1 auto;
+    height: 100%;
+}
+
+.main-menu li:last-child {
+    margin-right: 0;
+}
+.page {
+    overflow: hidden;
+    display: grid;
+    grid-template-areas: "header" "content" "footer";
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+.header {
+    background-color: black;
+    color: white;
+
+
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+
+
+.main-menu a {
+    text-decoration: none;
+    color: #e61986;
+    font-weight: bold;
+    height: 100%;
+}
+
+p {
+    text-align: justify;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+
+}
+
+
+
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    width: 250px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.btn-white {
+    color: white !important;
+    border-color: white !important;
+}
+
+.btn:hover {
+    background: #ff0099;
+    box-shadow: 0 15px 20px rgb(150, 3, 135);
+    color: white;
+    transform: translateY(-7px);
+}
+.btn3 {
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.btn3-white {
+    color: white !important;
+    border-color: white !important;
+}
+
+.btn3:hover {
+    background: #ff0099;
+    box-shadow: 0 15px 20px rgb(150, 3, 135);
+    color: white;
+    transform: translateY(-7px);
+}
+
+
+/*
+    Главный контент
+*/
+
+.main-content {
+    background-color: #f0f0f0;
+    display: inline;
+    margin-right: 10px;
+    flex: 1 1 auto;
+    height: 100%;
+}
+.main-menu li:last-child {
+    margin-right: 0;
+}
+table { 
+
+    width: 750px; 
+    border-collapse: collapse; 
+    margin:50px;
+    }
+  
+  th { 
+    background: #3498db; 
+    color: white; 
+    font-weight: bold; 
+    }
+  
+  td, th { 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    text-align: center; 
+    font-size: 18px;
+    }
+  
+  .labels tr td {
+    background-color: #2cc16a;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .label tr td label {
+    display: block;
+  }
+  
+  
+  [data-toggle="toggle"] {
+    display: none;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+.card {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.button {
+    /* Сбрасываем дефолтные стили */
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+    /* Можно также использовать любые встроенные и кастомные шрифты, например, отсюда  */
+    font-family: Roboto, Verdana, Tahoma, sans;
+    /* Тут можно поэкспериментировать */
+    padding: 16px 16px;
+    border-radius: 2px;
+    color: #fff;
+  }
+  .button i {
+    margin-right: 4px;
+  }
+  .button + .button {
+    margin-left: 6px;
+  }
+  .button.edit {
+
+    border: none;
+    background-image: url('https://grizly.club/uploads/posts/2022-12/1672395004_grizly-club-p-trafareti-karandashei-dlya-virezaniya-iz-b-20.png');
+    background-size: 36px 32px;  
+}
+  
+  .button.review {
+    
+    background-image: url('https://cdn.onlinewebfonts.com/svg/download_519771.png');
+    background-size: 36px 32px;
+ }
+ .button.trash {
+    
+    background-image: url('https://e7.pngegg.com/pngimages/711/1005/png-clipart-rubbish-bins-waste-paper-baskets-recycling-bin-computer-icons-free-glass-angle.png');
+    background-size: 36px 32px;
+ }
+  
+  div {
+    margin: 24px;
+    text-align: center;
+  }
